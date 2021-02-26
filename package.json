@@ -1,0 +1,27 @@
+{
+  "name": "my-vue-app",
+  "version": "0.0.1",
+  "license": "MIT",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "serve": "vite preview",
+    "start": "node backend/main.js"
+  },
+  "dependencies": {
+    "@types/qs": "^6.9.5",
+    "axios": "^0.21.1",
+    "qs": "^6.9.6",
+    "vant": "^3.0.6",
+    "vue": "^3.0.5",
+    "vue-router": "^4.0.4",
+    "vuex": "^4.0.0"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-vue": "^1.1.4",
+    "@vue/compiler-sfc": "^3.0.5",
+    "postcss-pxtorem": "^5.1.1",
+    "typescript": "^4.1.3",
+    "vite": "^2.0.1"
+  }
+}
